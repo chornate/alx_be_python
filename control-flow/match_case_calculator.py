@@ -1,8 +1,8 @@
 num1=input("Enter the first number:")
 num2=input("Enter the second number:")
-operator=input("Choose the operation (+, -, *, /):")
+operation=input("Choose the operation (+, -, *, /):")
 
-match operator:
+match operation:
     case "+":
         result=(float(num1) + float(num2))   
     case "-":
